@@ -6,7 +6,7 @@
 
 using namespace std;
 
-BankAccount account = BankAccount(0.0);
+BankAccount account(0.0);
 
 void do_fundraising(int number_of_raisings) {
   for (int i = 0; i < number_of_raisings; i++) {
