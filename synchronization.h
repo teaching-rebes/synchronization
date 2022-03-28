@@ -1,0 +1,6 @@
+#ifndef SYNCRONIZATION_H
+#define SYNCRONIZATION_H
+
+
+
+#endif // SYNCRONIZATION_H

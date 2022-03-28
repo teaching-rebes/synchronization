@@ -1,2 +1,3 @@
 # synchronization
-Some experiments with synchronization and locking
+
+A few simple experiments with synchronization mechanisms such as mutex and lock.
