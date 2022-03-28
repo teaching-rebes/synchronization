@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.13)  # CMake version check
 
 project(synchronization)              # Create project
 
-set(CMAKE_CXX_STANDARD 14)            # Enable c++14 standard
+set(CMAKE_CXX_STANDARD 20)            # Enable c++20 standard
 
 # Include the current directory as search path
 set(CMAKE_INCLUDE_CURRENT_DIR ON)

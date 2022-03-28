@@ -2,11 +2,13 @@
 #define BANKACCOUNT_H
 
 #include <mutex>
+#include <semaphore>
 
 class BankAccount {
 private:
   double balance;
-  mutable std::mutex mx;
+  mutable std::mutex mx;              // for all solutions except semaphore
+  std::counting_semaphore<1> sema{1}; // for semaphore solution only
 
 public:
   BankAccount(double initial_balance);
