@@ -1,3 +1,7 @@
+// C++ example for synchronization
+//
+// Note: uses BankAccount object for storing the money
+
 #include "synchronization.h"
 #include "BankAccount.h"
 
